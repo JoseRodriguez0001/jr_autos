@@ -10,4 +10,5 @@ import java.util.Optional;
 @Repository
 public interface DriverLicenseRepository  extends JpaRepository<DriverLicense, Long>, JpaSpecificationExecutor<DriverLicense> {
     Optional<DriverLicense> findByLicenseNumber( String licenseNumber);
+    //Solo se implementan consultas complejas
 }
