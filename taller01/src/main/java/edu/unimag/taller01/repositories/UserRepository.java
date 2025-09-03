@@ -1,6 +1,6 @@
-package edu.unimag.taller01.repositorios;
+package edu.unimag.taller01.repositories;
 
-import edu.unimag.taller01.modelos.User;
+import edu.unimag.taller01.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

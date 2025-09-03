@@ -1,6 +1,6 @@
-package edu.unimag.taller01.repositorios;
+package edu.unimag.taller01.repositories;
 
-import edu.unimag.taller01.modelos.DriverLicense;
+import edu.unimag.taller01.entities.DriverLicense;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

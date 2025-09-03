@@ -1,4 +1,4 @@
-package edu.unimag.taller01.modelos;
+package edu.unimag.taller01.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
