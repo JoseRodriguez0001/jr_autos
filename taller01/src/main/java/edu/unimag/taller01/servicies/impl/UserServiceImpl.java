@@ -3,11 +3,14 @@ package edu.unimag.taller01.servicies.impl;
 import edu.unimag.taller01.entities.User;
 import edu.unimag.taller01.repositories.UserRepository;
 import edu.unimag.taller01.servicies.UserService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
-
+@Service
+@RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
 
     UserRepository repository;
